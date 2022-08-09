@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white:#ffffff;
+}
+body{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 1.7;
+}
+.container{
+    position: relative;
+    height: 60vh;
+}
+.header_container{
+    height: 100vh;
+    background-image: url(./retro-living-room-interior-design\ \(1\).jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* .nav_container{
+      
+} */
+.logo_box{
+    position: relative;
+    left: 15px;
+    top: 35px;
+    display: inline-block;
+    flex: 30%;
+}
+.menu_container{
+    flex: 60%;
+    
+}
+.menu_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu_items{
+   margin-top: 40px;
+   padding: 0px 30px;  
+   color: var(--white);
+   font-size: 22px;  
+}
+.contact_details{
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    color: var(--white);
+    font-size: 20px;
+}
+.callUs{
+    display: block;
+}
+.contact{
+    display: block;
+}
+
+.rule1{
+    width: 1050px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    background-color: black;
+    height: 2px;
+    border: none;
+    background-color: #ffffff;
+}
+.heading_container{
+    color: #ffffff;
+    font-size: 34px;
+    margin-left: -100px;
+    position: relative;
+}
+.btn{
+    padding: 20px 50px;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 40px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    
+}
+.btn:hover{
+    background-color: #000000;
+    transform: translateX(5px);
+}
+.space1{
+    height: 150px;
+    width: 300px;
+    color: var(--white);
+    border: 3px solid var(--white);
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+    background-color:#314b5d;
+}
+.space2{
+    height: 150px;
+    width: 300px;
+    color: var(--white);
+    border: 3px solid var(--white);
+    background-color:#314b5d;
+}
+.rule3{
+    position: relative;
+    top: 12%;
+    left: -25%;
+    width: 23%;
+}
+.space_text{
+    text-align: center;
+    text-indent: 12%;
+}
+.pics{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    border-radius: 25px;
+    
+}
+.dot_div1{
+    height: 30px;
+    width: 30px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: relative;
+    left: -90px;
+    top:1px;    
+}
+.rule2{
+    position: absolute;
+    top: 146%;
+    left: 25%;
+    width: 23%;
+    transform: rotate(90deg);
+}
+.dot_div2{
+    height: 30px;
+    width: 30px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: relative;
+    left: 92px;
+    top:1px; 
+}
