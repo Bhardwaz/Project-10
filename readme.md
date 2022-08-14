@@ -3,3 +3,6 @@
 
 # Honest time
 ### it took 4 to 5 Hours because of aligning these horizontal lines for the very first time.
+
+# Update
+### Updated With Media Queries
